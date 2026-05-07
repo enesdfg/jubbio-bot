@@ -1,19 +1,14 @@
-name": "@workspace/jubbio-bot",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+{
+  "name": "jubbio-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
   "scripts": {
-    "dev": "tsx src/index.ts",
-    "start": "tsx src/index.ts",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "start": "ts-node index.ts"
   },
   "dependencies": {
-    "@jubbio/core": "1.4.4",
-    "pg": "^8.20.0"
-  },
-  "devDependencies": {
-    "@types/node": "catalog:",
-    "@types/pg": "^8.18.0",
-    "tsx": "catalog:"
+    "jubbio": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
   }
 }
