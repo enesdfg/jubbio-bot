@@ -1,14 +1,5 @@
 {
-  "name": "jubbio-bot",
-  "version": "1.0.0",
-  "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts"
-  },
-  "dependencies": {
-    "jubbio": "latest",
-    "ts-node": "latest",
-    "typescript": "latest",
-    "@types/node": "latest"
+    "start": "npx ts-node index.ts"
   }
 }
